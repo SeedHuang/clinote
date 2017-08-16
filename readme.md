@@ -13,6 +13,8 @@ npm config ls
 npm config ls -l
 # 运行dev环境脚本,这个主要依赖与你在package.json里面的scripts->dev下面有没有设置
 npm run dev
+# production参数只会安装devDepdencies
+npm install --production
 ```
 
 ## node
